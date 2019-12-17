@@ -7,9 +7,9 @@ import example.domain.model.specification.TicketType;
 import example.domain.model.specification.TrainType;
 
 /**
- * 切符
+ * 特急券
  */
-public class Ticket {
+public class SuperExpressTicket {
 
     DepartureDate departureDate;
     Destination destination;
@@ -18,7 +18,7 @@ public class Ticket {
     TrainType trainType;
     TicketType ticketType;
 
-    public Ticket( DepartureDate departureDate, Destination destination, SeatType seatType, TrainType trainType, TicketType ticketType) {
+    public SuperExpressTicket( DepartureDate departureDate, Destination destination, SeatType seatType, TrainType trainType, TicketType ticketType) {
         this.departureDate = departureDate;
         this.destination = destination;
         this.seatType = seatType;
