@@ -28,7 +28,7 @@ public class Ticket {
 
     @Override
     public String toString() {
-        return  "\n出発日=" + departureDate +
+        return  "出発日=" + departureDate +
                 "\n目的地=" + destination +
                 "\n座席区分=" + seatType +
                 "\n列車種類=" + trainType +
