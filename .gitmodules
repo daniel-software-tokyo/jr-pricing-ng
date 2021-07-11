@@ -1,0 +1,3 @@
+[submodule "Fw"]
+	path = Fw
+	url = git@github.com:daniel-software-tokyo/Fhi.Fw.git
