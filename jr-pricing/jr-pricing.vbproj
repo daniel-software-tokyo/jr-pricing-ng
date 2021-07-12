@@ -65,6 +65,7 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Attempt.vb" />
     <Compile Include="Model\Specification\DepartureDate.vb" />
     <Compile Include="Model\Specification\Destination.vb" />
     <Compile Include="Model\Specification\SeatType.vb" />
