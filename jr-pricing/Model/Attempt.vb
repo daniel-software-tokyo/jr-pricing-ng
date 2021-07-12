@@ -31,6 +31,12 @@ Namespace Model
             Return New Object() {adult, child, departureDate, destination, seatType, trainType, ticketType}
         End Function
 
+        Public ReadOnly Property [To]() As Destination
+            Get
+                Return destination
+            End Get
+        End Property
+
         Public Overrides Function ToString() As String
             Return String.Format("大人={1}人{0}" _
                                  & "子供={2}人{0}" _
