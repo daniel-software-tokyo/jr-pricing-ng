@@ -106,6 +106,20 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fw\Fhi.Fw.Test\Fhi.Fw.Test.vbproj">
+      <Project>{DA8F28E7-58E7-4D77-9A4B-8AFBF6DDE443}</Project>
+      <Name>Fhi.Fw.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fw\Fhi.Fw\Fhi.Fw.vbproj">
+      <Project>{8D9EF493-1DB9-4B5D-A205-22513969D5B2}</Project>
+      <Name>Fhi.Fw</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jr-pricing\jr-pricing.vbproj">
+      <Project>{C9ACBEEE-3334-4C8E-9041-9DD68A6E8623}</Project>
+      <Name>jr-pricing</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
