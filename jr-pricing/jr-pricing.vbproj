@@ -65,6 +65,7 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\Service\FareService.vb" />
     <Compile Include="Model\Attempt.vb" />
     <Compile Include="Model\Bill\Amount.vb" />
     <Compile Include="Model\Bill\Bill.vb" />
