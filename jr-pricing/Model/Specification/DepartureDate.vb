@@ -5,9 +5,13 @@ Namespace Model.Specification
     ''' 出発日
     ''' </summary>
     ''' <remarks></remarks>
-    Public Class DepartureDate : Inherits PrimitiveValueObject(Of DateTime?)
+    Public Class DepartureDate : Inherits PrimitiveValueObject(Of DateTime)
 
-        Public Sub New(value As Date?)
+        Public Sub New(year As Integer, month As Integer, day As Integer)
+            Me.New(New DateTime(year, month, day))
+        End Sub
+
+        Public Sub New(value As Date)
             MyBase.New(value)
         End Sub
 
